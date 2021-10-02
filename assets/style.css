@@ -1,20 +1,47 @@
-.body {
+body {
+    color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(211, 74, 40);
+    
   }
-  .header {
-    padding: /*top*/10px /*right*/10px /*bottom*/10px /*left*/10px;
-    background-color: #19d7ec;
+
+  header{
+    padding: 20px 35px;
+    background-color: #39a6b2;
+
   }
-  header1 {
+  header h1 {
+
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
   }
-  
+
   header a {
+    text-decoration: none;
     color: #fce138;
   }
 
-  
+  header nav{
+
+    float: right;
+    margin: 7px;
+  }
+  /* makes  the list  look like a rowintead of collumn*/
+header nav ul li {
+
+display: inline;
+
+  }
+  header nav ul li a {
+margin: 0 30px;
+font-weight: lighter;
+font-size: 22px ;
+
+  }
+  *{
+margin: 0;
+padding: 0;
+
+  }
