@@ -10,17 +10,21 @@ body {
 }
 
 /*styiling the header*/
-  header{
+header{
      padding: 20px 35px;
      background-color: #39a6b2;
- }
-  header h1 {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
 
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
+ }
+ header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #fce138;
+
+    /*display: inline;   let's use flex box*/
   }
 
   header a {
@@ -29,8 +33,9 @@ body {
   }
 
   header nav {
-    float: right;
+    /*float: right; let's use flex box*/
     margin: 7px 0;
+    
   }
   
   /* makes  the list  look like a rowintead of collumn*/
@@ -79,6 +84,7 @@ footer a {
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-bottom: 30px;
 }
 
 /*Style the hero form*/
@@ -128,6 +134,7 @@ footer a {
 
 .intro{
   text-align: center;
+  
 }
 
 .intro p {
@@ -139,8 +146,10 @@ footer a {
 }
 
 .steps {
+/*what we do text*/
   text-align: center;
   background: #fce138;
+  padding-top: 40px;
 }
 .steps div {
   margin-bottom: 80px;
@@ -171,7 +180,7 @@ footer a {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
+  padding: 0 100px 0px 100px;
   display: inline-block;
   border-bottom: 3px solid;
 }
@@ -244,6 +253,7 @@ footer a {
 .contact-info iframe {
   width: 400px;
   height: 400px;
+  margin-bottom: 30px;
 }
 .contact-info div {
   width: 410px;
